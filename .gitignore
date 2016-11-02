@@ -1,0 +1,8 @@
+*.png
+*.jpg
+.DS_Store
+*SVG
+*.ZIP
+*.rar
+images/
+skyImages/

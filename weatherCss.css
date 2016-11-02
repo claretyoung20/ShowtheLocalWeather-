@@ -1,0 +1,97 @@
+body{
+  background-size: cover;
+   
+}
+.contner{
+    color: azure;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.location{
+    
+    margin-top: 70px;
+    font-family: Lobster, Monospace;
+    font-size: 30px;
+    text-align: center;
+}
+.degree{
+   font-family:Monospace;
+}
+img{
+   width:80px; 
+   height: 80px;
+}
+.temp, .wind, .humidity, {
+    font-family:Monospace;
+    text-align: center;
+}
+.description{
+     font-size: 30px;
+}
+ul{
+    list-style-type: none;
+   text-align: center;
+}
+li{
+     display: inline;
+}
+.frh, .celsiu, .seper{
+    font-size: 35px;
+}
+.deg{
+    font-size: 70px;
+}
+ .btn-primary{
+            width:200px;
+            height: 70px;
+         font-size: 25px;
+        }
+.btn{
+    background-color: cadetblue;
+   
+}
+footer {
+  margin-top: 260px;
+  padding-top: 30px;
+  padding-bottom: 1px;
+  color: bisque;
+  background-color: cadetblue;
+}
+@media screen and (max-width: 368px){
+    body{
+    background-image: url("skyImages/scattered-clouds-above-the-mountains-1920x1080-wallpaper356490.jpg");
+     background-size: cover;
+    
+}
+	.contner{
+    color: aliceblue;
+    width: 100%;
+    height: inherit;
+    margin: auto;
+    text-align: center;
+    
+    }
+    .location{
+        margin: auto;
+    }
+ .temp, .wind{
+    font-family:Monospace;
+    font-size: 20px;
+    text-align: center;
+}
+.btn-primary{
+            margin-top: 20px;
+            width:200px;
+            height: 70px;
+            font-size: 25px;
+        } 
+footer {
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 1px;
+  color: bisque;
+  background-color: cadetblue;
+}
+}
